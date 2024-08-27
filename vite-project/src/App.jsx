@@ -15,6 +15,7 @@ function App() {
         <div>
             <h1>Digital Clock</h1>
             <h2>{time.toLocaleTimeString()}</h2>
+          <DigitalClock />
         </div>
     );
 }
